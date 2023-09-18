@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -14,9 +14,9 @@ const Navbar = () => {
                     }`}
             >
                 <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
-                    <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white">
+                    <Link to="/"><span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white">
                         Quantafile
-                    </span>
+                    </span></Link>
                     <div className="flex gap-4 md:order-2">
                         <div className="hidden lg:block">
                             <div className='flex gap-4'>
