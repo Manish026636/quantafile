@@ -44,21 +44,41 @@ const Navbar = () => {
                             onClick={toggleMobileMenu}
                         >
                             <span className="sr-only">Open main menu</span>
-                            <svg
-                                className="w-5 h-5"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 17 14"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M1 1h15M1 7h15M1 13h15"
-                                />
-                            </svg>
+                            {isMobileMenuOpen ? (
+                                // Cross Icon
+                                <svg
+                                    className="w-5 h-5"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 14 14"
+                                >
+                                    <path
+                                        stroke="currentColor"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="M1 1l12 12M1 13L13 1"
+                                    />
+                                </svg>
+                            ) : (
+                                // Hamburger Icon
+                                <svg
+                                    className="w-5 h-5"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 17 14"
+                                >
+                                    <path
+                                        stroke="currentColor"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="M1 1h15M1 7h15M1 13h15"
+                                    />
+                                </svg>
+                            )}
                         </button>
                         {/* End of conditional rendering */}
                     </div>
