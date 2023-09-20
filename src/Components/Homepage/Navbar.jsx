@@ -20,18 +20,18 @@ const Navbar = () => {
                     <div className="flex gap-4 md:order-2">
                         <div className="hidden lg:block">
                             <div className='flex gap-4'>
-                                <button
+                                <Link to="/Login"><button
                                     type="button"
                                     className="text-black  bg-white hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                 >
                                     Log in
-                                </button>
-                                <button
+                                </button></Link>
+                                <Link to="/Signup"><button
                                     type="button"
                                     className="text-white  bg-black hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                 >
                                     Sign up
-                                </button>
+                                </button></Link>
                             </div>
 
                         </div>
@@ -125,18 +125,18 @@ const Navbar = () => {
                     {/* Conditional rendering of "Log in" and "Sign up" buttons */}
                     {isMobileMenuOpen && (
                         <div className="flex w-full justify-center gap-4 mt-4 md:mt-0">
-                            <button
+                            <Link to="/Login"><button
                                 type="button"
                                 className="text-black bg-white hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
                                 Log in
-                            </button>
-                            <button
+                            </button></Link>
+                            <Link to="/Signup"><button
                                 type="button"
                                 className="text-white bg-black hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
                                 Sign up
-                            </button>
+                            </button></Link>
                         </div>
                     )}
                     {/* End of conditional rendering */}
