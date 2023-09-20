@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Forgot = () => {
   return (
     <div className='h-screen flex items-center justify-center'>
@@ -36,7 +36,7 @@ const Forgot = () => {
           <span className="w-1/5 border-b dark:border-gray-400 lg:w-1/5"></span>
         </div>
 
-        <div className="flex justify-center lg:w-1/2  items-center  mt-6 -mx-2">
+        <Link to="/"><div className="flex justify-center lg:w-1/2  items-center  mt-6 -mx-2">
           <button
             type="button"
             className="flex items-center  justify-center w-full px-6 py-4 mx-2 text-md font-medium text-white transition-colors duration-300 transform bg-gray-400 rounded-xl hover:bg-gray-800  focus:outline-none"
@@ -45,7 +45,7 @@ const Forgot = () => {
           </button>
 
           
-        </div>
+        </div></Link>
 
         
       </div>
