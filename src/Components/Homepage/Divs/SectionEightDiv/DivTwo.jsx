@@ -3,11 +3,11 @@ import React from 'react'
 const RedDiv = () => {
   return (
     <div>
-        <div class="bg-[#ec5b7a] rounded-3xl h-[70vh] p-4">
+        <div class="bg-white rounded-3xl h-[25vh] lg:h-[35vh] p-2">
 
 </div>
     </div>
   )
 }
 
-export default RedDiv
+export default RedDiv;

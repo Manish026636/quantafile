@@ -10,4 +10,4 @@ const RedDiv = () => {
   )
 }
 
-export default RedDiv
+export default RedDiv;

@@ -10,4 +10,4 @@ const WhiteDiv = () => {
   )
 }
 
-export default WhiteDiv
+export default WhiteDiv;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WhiteDiv = () => {
+const WhiteTwoDiv = () => {
   return (
     <div>
         <div class="bg-white rounded-3xl h-[70vh] p-4">
@@ -10,4 +10,4 @@ const WhiteDiv = () => {
   )
 }
 
-export default WhiteDiv
+export default WhiteTwoDiv;
