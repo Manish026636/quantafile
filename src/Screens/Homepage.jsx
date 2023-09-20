@@ -15,10 +15,12 @@ import SectionSeven from '../Components/Homepage/Divs/SectionSeven';
 import SectionEight from '../Components/Homepage/Divs/SectionEight';
 import SectionNine from '../Components/Homepage/Divs/SectionNine';
 import Footer from '../Components/Homepage/Footer';
+import Hide from '../Components/Homepage/Login&SignUp/Hide';
 const Homepage = () => {
   return (
     <div>
       <Navbar />
+      <Hide/>
       <Hero />
       <SectionOne/>
       <WhiteRedDashboard/>

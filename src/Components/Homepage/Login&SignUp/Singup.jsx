@@ -2,45 +2,48 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Signup = () => {
+  
   return (
     <div className='h-screen flex items-center justify-center'>
-      <div className="w-full max-w-md p-6 m-auto  dark:bg-gray-800">
+      <div className="w-full max-w-2xl p-6 m-auto  dark:bg-gray-800">
         <h2 className='text-center text-2xl mt-10 font-bold'>Sign up</h2>
-        <form className="mt-10">
-        <div>
-            <input
-              type="name"
-              className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-              placeholder="Full Name"
-            />
-          </div>
-          <div className="mt-4">
-            <input
-              type="email"
-              className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-              placeholder="Email Address"
-            />
-          </div>
-
-          <div className="mt-4">
+        <form className="mt-4">
+          <div className='grid lg:grid-cols-2 lg:gap-4'>
             
-
-            <input
-              type="password"
-              className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-              placeholder="Password"
-            />
-          </div>
           <div className="mt-4">
-            
+              <input
+                type="name"
+                className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Full Name"
+              />
+            </div>
+            <div className="mt-4">
+              <input
+                type="email"
+                className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Email Address"
+              />
+            </div>
 
-            <input
-              type="password"
-              className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-              placeholder="Confirm Password"
-            />
+            <div className="mt-4">
+
+
+              <input
+                type="password"
+                className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Password"
+              />
+            </div>
+            <div className="mt-4">
+
+
+              <input
+                type="password"
+                className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Confirm Password"
+              />
+            </div>
           </div>
-         
 
           <div className="mt-6">
             <button
@@ -49,15 +52,15 @@ const Signup = () => {
               Sign up
             </button>
           </div>
-          
+
         </form>
 
         {/* Social Media Login */}
         <div className="flex items-center justify-between mt-4">
           <span className="w-1/5 border-b dark:border-gray-600 lg:w-1/5"></span>
 
-          <p  className="text-xs text-center text-gray-500 uppercase dark:text-gray-400 ">
-            or sign up with 
+          <p className="text-xs text-center text-gray-500 uppercase dark:text-gray-400 ">
+            or sign up with
           </p>
 
           <span className="w-1/5 border-b dark:border-gray-400 lg:w-1/5"></span>
@@ -76,11 +79,11 @@ const Signup = () => {
             <span className="hidden mx-2 sm:inline">Sign up with Google</span>
           </button>
 
-          
+
         </div>
 
         <p className="mt-8 text-sm font-light text-center text-gray-400">
-          Already have an account? <Link to="/Login"><span  className="font-medium cursor text-gray-700 dark:text-gray-200 hover:underline">Log in</span></Link>
+          Already have an account? <Link to="/Login"><span className="font-medium cursor text-gray-700 dark:text-gray-200 hover:underline">Log in</span></Link>
         </p>
       </div>
     </div>

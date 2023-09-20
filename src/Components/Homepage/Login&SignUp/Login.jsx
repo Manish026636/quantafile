@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
   return (
     <div className='h-screen flex items-center justify-center'>
       <div className="w-full max-w-md p-6 m-auto  dark:bg-gray-800">
@@ -15,14 +21,25 @@ const Login = () => {
             />
           </div>
 
-          <div className="mt-4">
+          <div className="relative mt-4">
             
 
             <input
-              type="password"
+              type={showPassword ? 'text' : 'password'}
               className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Password"
+              value={password}
+            onChange={(e) => setPassword(e.target.value)}
             />
+            <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+            <button
+              className="text-gray-500 hover:text-gray-700"
+              onClick={togglePasswordVisibility}
+              type="button"
+            >
+              {showPassword ? 'Hide' : 'Show'}
+            </button>
+          </div>
           </div>
          
 
