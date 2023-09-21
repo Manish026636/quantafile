@@ -14,7 +14,7 @@ const WhiteDiv = () => {
             </p>
           </div>
           <div>
-            <img src="ch2.png" alt="img" className="lg:mt-4  w-full " />
+            <img src="ch3.png" alt="img" className="lg:mt-4 w-full " />
           </div>
         </div>
       </div>
