@@ -3,7 +3,7 @@ import React from 'react'
 const BlackDiv = () => {
   return (
     <div>
-        <div class="bg-[#343a46] rounded-3xl h-[70vh] p-4">
+        <div class="bg-[#343a46]  transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden rounded-3xl h-[70vh] p-4">
         <div className="transform scale-100 transition-transform duration-300 hover:scale-90 ">
           <div className="pt-10 lg:mt-4 p-8   lg:p-8">
             <h1 className="text-2xl lg:text-4xl font-bold mb-8 text-white">
