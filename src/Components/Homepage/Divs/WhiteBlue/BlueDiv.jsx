@@ -14,7 +14,7 @@ const BlueDiv = () => {
             </p>
           </div>
           <div>
-            <img src="ch1.png" alt="img" className="lg:mt-4  w-full " />
+            <img src="ch1.png" alt="img" className="lg:mt-4   w-full " />
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const WhiteTwoDiv = () => {
             </p>
           </div>
           <div>
-            <img src="ui3.jpg" alt="img" className="lg:mt-4 w-full " />
+            <img src="ui3.jpg" alt="img" className="lg:mt-4  w-full " />
           </div>
         </div>
       </div>
