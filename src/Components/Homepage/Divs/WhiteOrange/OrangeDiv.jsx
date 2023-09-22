@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 
 const OrangeDiv = () => {
   return (
     <div>
-    <div class="bg-[#ee7a3f] transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden rounded-3xl h-[70vh] p-2">
-      <div className="transform scale-100 transition-transform duration-300 hover:scale-90 grid lg:grid-cols-1  lg:gap-4">
-        <div className="pt-10 lg:mt-4 p-8   lg:p-8">
-          <h1 className="text-2xl lg:text-4xl font-bold mb-8 text-white">
-            Create and Share, Effortless Visuals
-          </h1>
-          <p className="text-lg lg:text-xl text-white font-bold">
-            Send money to friends and family, or get paid by customers.{" "}
-          </p>
-        </div>
-        <div>
-          <img src="ph2.png" alt="img" className="lg:mt-4 w-full " />
+      <div class="bg-[#ee7a3f]  transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden rounded-3xl h-auto p-2">
+        <div className="transform scale-100 transition-transform duration-300 hover:scale-90 ">
+          <div className="px-8 pt-4">
+            <h1 className="text-2xl lg:text-4xl font-bold  text-white">
+              Create and Share,<br/>Effortless Visuals
+            </h1>
+            <p className="text-lg pt-6 lg:text-xl text-white font-bold">
+              Send money to friends and family, or get paid by customers.{" "}
+            </p>
+          </div>
+          <div>
+            <img src="ph2.png" alt="img" className="mt-2  w-full " />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
 export default OrangeDiv;

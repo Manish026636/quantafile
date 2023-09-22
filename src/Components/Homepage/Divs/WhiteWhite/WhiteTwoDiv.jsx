@@ -3,18 +3,18 @@ import React from "react";
 const WhiteTwoDiv = () => {
   return (
     <div>
-      <div class="bg-white transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden rounded-3xl h-[70vh] p-2">
-        <div className="transform scale-100 transition-transform duration-300 hover:scale-90 grid lg:grid-cols-1  lg:gap-4">
-          <div className="pt-10 lg:mt-4 p-8   lg:p-8">
-            <h1 className="text-2xl lg:text-4xl font-bold mb-8 text-black">
-              Create and Share, Effortless Visuals
+      <div class="bg-white transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden rounded-3xl h-auto p-2">
+        <div className="transform scale-100 transition-transform duration-300 hover:scale-90 ">
+          <div className="px-8 pt-4">
+            <h1 className="text-2xl lg:text-4xl font-bold  text-black">
+              Create and Share,<br/>Effortless Visuals
             </h1>
-            <p className="text-lg lg:text-xl text-black font-bold">
+            <p className="text-lg pt-6 lg:text-xl text-black font-bold">
               Send money to friends and family, or get paid by customers.{" "}
-            </p>
+            </p> 
           </div>
           <div>
-            <img src="ui3.jpg" alt="img" className="lg:mt-4  w-full " />
+            <img src="ui3.jpg" alt="img" className="mt-24  w-full " />
           </div>
         </div>
       </div>
