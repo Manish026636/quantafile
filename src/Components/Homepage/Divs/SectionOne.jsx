@@ -1,12 +1,12 @@
 import React from 'react'
-
+import TextStyle from '../../Others/TextStyle';
 const SectionOne = () => {
   return (
     <div>
 
       <div className='text-center mb-20'>
         <p className=' text-2xl text-gray-500 font-bold pb-4'>Stunning Presentations</p>
-        <h1 className='text-2xl lg:text-6xl font-extrabold sectionhead '>Craft, Captivate, and Convey with Elegance</h1>
+        <TextStyle >Craft, Captivate, and Convey with Elegance</TextStyle>
         <p className='pt-10 text-gray-700 font-bold text-xl'>Simplify your daily presentations, making them visually captivating and impactful</p>
       </div>
       <div className='mx-auto max-w-custom  px-4 mb-10'>
