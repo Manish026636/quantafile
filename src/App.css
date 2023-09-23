@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 body{
   background-color: #f3f4f5;
  
+
+}
+
+.sectionhead{
+  font-family: 'Rubik', sans-serif;
 
 }
 
@@ -15,6 +21,7 @@ body{
 }
 .heroheading{
   line-height: 70px;
+  font-family: 'Inter', sans-serif;
 
 }
 /* src/components/ParallaxText.css */

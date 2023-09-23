@@ -7,7 +7,7 @@ const SectionFive = () => {
 
       <div className='text-center mb-20'>
         <p className=' text-2xl text-gray-500 font-bold pb-4'>Lifestyle</p>
-        <h1 className='text-2xl lg:text-6xl font-extrabold  '>Get a little more in life with Quantafile</h1>
+        <h1 className='text-2xl lg:text-6xl font-extrabold sectionhead '>Get a little more in life with Quantafile</h1>
         <p className='pt-10 text-gray-700 font-bold text-xl'>Let us take care of all the added extras, from donations to gifts
           for friends and so much more</p>
       </div>

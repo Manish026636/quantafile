@@ -6,7 +6,7 @@ const SectionFour = () => {
 
       <div className='text-center mb-20'>
         <p className=' text-2xl text-gray-500 font-bold pb-4'>Travel</p>
-        <h1 className='text-2xl lg:text-6xl font-extrabold  '>All your travel needs, sorted</h1>
+        <h1 className='text-2xl lg:text-6xl font-extrabold sectionhead '>All your travel needs, sorted</h1>
         <p className='pt-10 text-gray-700 font-bold text-xl'>Travel card? Check. Insurance? Covered. Hotels? Say no more. We’re building you a connected trip</p>
       </div>
       <div className='mx-auto max-w-custom  px-4 mb-10'>
