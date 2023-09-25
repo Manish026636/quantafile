@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className={`bg-[#EAEDF0] dark:bg-gray-900 fixed w-full z-20 top-0 left-0 dark:border-gray-600 ${isMobileMenuOpen ? 'h-auto' : ''
+                className={`bg-[#EAEDF0]  dark:bg-gray-900 fixed w-full z-20 top-0 left-0 dark:border-gray-600 ${isMobileMenuOpen ? 'h-auto' : ''
                     }`}
             >
                 <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
