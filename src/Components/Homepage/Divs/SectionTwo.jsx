@@ -11,7 +11,7 @@ const SectionTwo = () => {
         <p className='pt-10 text-gray-700 font-bold text-xl'>Simplify your daily presentations, making them visually captivating and impactful</p>
       </div>
       <div className='mx-auto max-w-custom px-4 mb-4'>
-        <div className='bg-[#343a46] transform scale-100 transition-transform duration-300 hover:scale-90 rounded-3xl w-full  h-auto'>
+        <div className='sectiontwo-background transform scale-100 transition-transform duration-300 hover:scale-90 rounded-3xl w-full  h-auto'>
         <div className=' grid lg:grid-cols-2  lg:gap-4'>
               <div className='pt-30 lg:mt-32 p-8   lg:p-8'>
                <h1 className='text-2xl lg:text-4xl font-bold mb-8 cardhead text-white'>Create and Share, Effortless Visuals</h1>

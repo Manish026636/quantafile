@@ -86,5 +86,61 @@ body{
   }
 }
   
+/* styles.css or your stylesheet */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.gradient-background {
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  background-size: 200% 200%;
+}
+/* section one */
+.sectionone-background {
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #5f20b1, #00ffff);
+  background-size: 200% 200%;
+}
 
+.white-div{
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #ffffff, #00ffff);
+  background-size: 200% 200%;
+}
+
+/* section two */
+.sectiontwo-background {
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #84FFC9, #3952F5);
+  background-size: 200% 200%;
+}
+
+/* section three */
+.sectionthree-background {
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #919BFF, #133A94);
+  background-size: 200% 200%;
+}
+
+/* section four */
+.sectionfour-background {
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #43C197, #1C1554);
+  background-size: 200% 200%;
+}
+
+/* section eight */
+.sectioneight-background {
+  animation: gradientAnimation 5s linear infinite;
+  background: linear-gradient(45deg, #9BF8F4, #6F7BF7);
+  background-size: 200% 200%;
+}
 

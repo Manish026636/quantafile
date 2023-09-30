@@ -11,7 +11,7 @@ const SectionThree = () => {
         <p className='pt-10 text-gray-700 font-bold text-xl'>Create your portfolio and start trading with just a few taps. Capital at risk</p>
       </div>
       <div className='mx-auto max-w-custom  px-4 mb-10'>
-        <div className='bg-[#333b47] transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden  rounded-3xl w-full  h-auto'>
+        <div className='sectionthree-background transform scale-100 transition-transform duration-300 hover:scale-90  overflow-hidden  rounded-3xl w-full  h-auto'>
         <div className=' grid lg:grid-cols-2  lg:gap-4'>
               <div className='pt-30 lg:mt-32 p-8   lg:p-8'>
                <h1 className='text-2xl lg:text-4xl font-bold mb-8 cardhead text-white'>Create and Share, Effortless Visuals</h1>
