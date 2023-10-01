@@ -41,7 +41,7 @@ const Forgot = () => {
             type="button"
             className="flex items-center  justify-center w-full px-6 py-4 mx-2 text-md font-medium text-white transition-colors duration-300 transform bg-gray-400 rounded-xl hover:bg-gray-800  focus:outline-none"
           >
-            <span className=" mx-2 sm:inline">Back to home</span>
+            <span className=" mx-2 sm:inline">Back to Log in</span>
           </button>
 
           
