@@ -27,8 +27,12 @@ const Hero = () => {
     transition: 'transform 0.2s ease-out',
   };
 
+  const containerStyle = {
+    overflowX: 'hidden', // Prevent horizontal scrolling
+  };
+
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="h-screen flex flex-col justify-center" style={containerStyle}>
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <section className="flex flex-col items-center">
           <div className="flex  flex-col items-center pb-0 pt-8 text-center   lg:pt-32">
@@ -54,11 +58,9 @@ const Hero = () => {
       <div
         className="w-full h-full bg-cover"
         style={{
-          position: 'absolute',
+          position: 'fixed', // Use fixed position
           top: 0,
           left: 0,
-          right: 0,
-          bottom: 0,
           zIndex: -1,
           ...heroStyle,
         }}
