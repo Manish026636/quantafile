@@ -106,7 +106,7 @@ body{
 /* section one */
 .sectionone-background {
   animation: gradientAnimation 5s linear infinite;
-  background: linear-gradient(45deg, #5f20b1, #00ffff);
+  background: linear-gradient(45deg, #b30fff, #296ef8);
   background-size: 200% 200%;
 }
 

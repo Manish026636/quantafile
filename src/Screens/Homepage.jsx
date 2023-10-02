@@ -15,6 +15,7 @@ import SectionSeven from '../Components/Homepage/Divs/SectionSeven';
 import SectionEight from '../Components/Homepage/Divs/SectionEight';
 import SectionNine from '../Components/Homepage/Divs/SectionNine';
 import Footer from '../Components/Homepage/Footer';
+import CarauselCards from '../Components/Homepage/CarauselCards';
 
 const Homepage = () => {
   return (
@@ -32,6 +33,7 @@ const Homepage = () => {
       <WhiteWhiteDashboard/>
       <SectionFive/>
       <SectionSix/>
+      <CarauselCards/>
       <SectionSeven/>
       <SectionEight/>
       <SectionNine/>

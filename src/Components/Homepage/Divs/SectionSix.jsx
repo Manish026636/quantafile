@@ -12,8 +12,9 @@ const SectionFive = () => {
         
       </div>
       <div class="mx-auto max-w-custom px-4 mb-40 grid lg:grid-cols-2 gap-4">
+      <BlueDiv />
         <BlackDiv />
-        <BlueDiv />
+      
 
 
       </div>
