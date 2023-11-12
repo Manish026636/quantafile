@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import backgroundImage from '../Others/HeroIm.png'; // Replace with the actual path to your image
+import backgroundImage from '../Others/HeroIm.png';
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
